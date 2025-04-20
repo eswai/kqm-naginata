@@ -196,11 +196,11 @@ const PROGMEM naginata_kanamap ngdickana[] = {
   {.shift = 0UL        , .douji = B_F|B_L|B_SCLN  , .kana = "vu"     , .func = nofunc }, // ゔ
 
   // 半濁音
-  {.shift = 0UL        , .douji = B_M|B_C         , .kana = "ga"     , .func = nofunc }, // ぱ
-  {.shift = 0UL        , .douji = B_M|B_X         , .kana = "gi"     , .func = nofunc }, // ぴ
-  {.shift = 0UL        , .douji = B_V|B_SCLN      , .kana = "gu"     , .func = nofunc }, // ぷ
-  {.shift = 0UL        , .douji = B_V|B_P         , .kana = "ge"     , .func = nofunc }, // ぺ
-  {.shift = 0UL        , .douji = B_M|B_Z         , .kana = "go"     , .func = nofunc }, // ぽ
+  {.shift = 0UL        , .douji = B_M|B_C         , .kana = "pa"     , .func = nofunc }, // ぱ
+  {.shift = 0UL        , .douji = B_M|B_X         , .kana = "pi"     , .func = nofunc }, // ぴ
+  {.shift = 0UL        , .douji = B_V|B_SCLN      , .kana = "pu"     , .func = nofunc }, // ぷ
+  {.shift = 0UL        , .douji = B_V|B_P         , .kana = "pe"     , .func = nofunc }, // ぺ
+  {.shift = 0UL        , .douji = B_M|B_Z         , .kana = "po"     , .func = nofunc }, // ぽ
 
   // 小書き
   {.shift = 0UL        , .douji = B_Q|B_H         , .kana = "xya"    , .func = nofunc }, // ゃ
