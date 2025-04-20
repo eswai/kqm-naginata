@@ -9,9 +9,6 @@ services:
     image: kqm
     working_dir: /vial-qmk
     volumes:
-      - ${QMK_USERSPACE}:/qmk_userspace
       - ./build:/vial-qmk/.build
-    environment:
-      QMK_USERSPACE: /qmk_userspace
     command: make sekigon/keyboard_quantizer/mini:naginata_v16:uf2
     # command: make sekigon/keyboard_quantizer/mini:vial:uf2
