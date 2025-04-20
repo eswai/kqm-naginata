@@ -1,6 +1,8 @@
 # Keyboard Quantizer Miniで薙刀式
 
-Releaseページのファームウェアをインストールして、Vialでkqm-naginata.vilをロードする。
+市販のキーボードをKeyboard Quantizerに接続すると、薙刀式かな入力ができるようになります。
+
+[Releaseページ](https://github.com/eswai/kqm-naginata/releases)のファームウェアをインストールして、Vialでkqm-naginata.vilをロードする。
 
 かな入力モードで、Unicode入力モードを切り替え
 * F1: Windows (WinCompose)
